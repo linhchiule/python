@@ -6,7 +6,7 @@ class Television:
 
     def __init__(self) -> None:
         """
-        Initialize the television to turn the tv on and off.
+        Initialize the television with default status, mute, volume, and channel
         """
         self.__status = False
         self.__muted = False
